@@ -1,0 +1,18 @@
+lords_mobile_bot/
+├── main.py
+├── app.py                        # Flask web server entry point
+├── core/
+│   ├── __init__.py
+│   ├── models.py                 # OOP models: User, Guild
+│   └── engine.py                 # GameEngine orchestrator
+├── config/
+│   ├── settings.json
+│   └── users.json
+├── functions/
+│   ├── shield_renewal.py
+│   ├── resource_manager.py
+│   ├── guild_assistant.py
+│   ├── battle_analyzer.py
+│   └── hunting_manager.py
+├── requirements.txt
+└── README.md
